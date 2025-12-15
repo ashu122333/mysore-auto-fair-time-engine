@@ -44,3 +44,31 @@ My objective is to build a "Fair Time Engine." The meter is ticking, but the tra
 
 ### Tech Stack:
 Python, Pandas, LightGBM, Matplotlib, Scikit-learn
+
+---
+
+### 📁 Repository Structure
+
+```text
+mysore-auto-fair-time-engine/
+│
+├── README.md                      # Project overview & explanation
+│
+├── mysore-auto-fair-time-engine.ipynb   # Main notebook with full workflow
+│
+├── src/
+│   ├── features.py                # Distance, time, and zone feature functions
+│   ├── utils.py                   # Cleaning, sanity checks, helper functions
+│   └── train_model.py             # LightGBM/XGBoost training script
+│
+├── images/                        # Visualizations used in README + notebook
+│
+├── data/                          # Contains dataset (only if allowed)
+│   ├── train.csv 
+│   └── test.csv 
+│
+└── original-problem-statement/
+    └── README.md                  # Original problem statement
+```
+
+    
